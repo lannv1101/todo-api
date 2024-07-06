@@ -1,0 +1,16 @@
+
+GET http://localhost:3200/tasks
+Content-Type: application/json
+
+
+POST http://localhost:3200/tasks
+Content-Type: application/json
+
+{
+    // title: "aaa",
+    "date": "2024-07-07",
+    "description": "asdasdaa",
+    "priority": "normal",
+    "status": "todo"
+
+}
