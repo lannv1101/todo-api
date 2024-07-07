@@ -7,10 +7,20 @@ POST http://localhost:3200/tasks
 Content-Type: application/json
 
 {
-    // title: "aaa",
+    //"title": "aaa",
     "date": "2024-07-07",
     "description": "asdasdaa",
     "priority": "normal",
     "status": "todo"
+
+}
+
+
+PUT http://localhost:3200/tasks
+Content-Type: application/json
+
+{
+    //"id": "1830207f-5965-4c98-ae41-930d9ca89507",
+    "status": "inProgress"
 
 }
